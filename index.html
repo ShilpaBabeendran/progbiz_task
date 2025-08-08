@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biosynthesie</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Figtree&family=Hind+Madurai:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body style="overflow-x: hidden;">
+    <!-- HEADER SECTION -->
+    <header class="mt-2">
+        <nav class="navbar navbar-expand-lg mx-2 px-md-5">
+            <!-- Logo -->
+            <a class="navbar-brand rm-pd fw-bold" href="#"><img src="./assets/images/logo.svg" /></a>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navigation Menu -->
+            <div class="collapse navbar-collapse justify-content-between" id="mainNav">
+                <!-- Navigation Links -->
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item text-decoration-none active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nav.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+
+                <!-- Login Buttons -->
+                <div class="login-btn gap-2">
+                    <button id="loginBtn" class="btn btn-custom rounded-5">Log in</button>
+                    <button id="signupBtn" class="btn btn-custom rounded-5 active">Sign up Free</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN HERO SECTION -->
+    <div class="mainhead d-flex flex-column mt-5 justify-content-center align-items-center">
+        <button class="tar d-flex flex-row justify-content-center align-items-center">
+            <div class="circle"></div>
+            <div class="text-top">Top Agro Researcher's</div>
+        </button>
+        <h1 class="cultivating fs-md-1">Cultivating Next-Gen Growth <br>in Agriculture</h1>
+        <p class="empowering fs-5 fs-md-1">Empowering farmers with smarter tools,<br> bigger yields, and greener solutions</p>
+        <button class="strat d-flex flex-row justify-content-center align-items-center">
+            <div class="get fs-6">Get Started</div>
+            <div><img src="./assets/images/rightarrow.png" class="rarrow"/></div>
+        </button>
+    </div>
+
+    <!--BANNER SECTION -->
+    <!-- Main Banner Image -->
+    <img src="./assets/images/banner image.png" class="banner mt-5 img-fluid w-100 vh-100 object-fit-cover" alt="Full Background"/>
+
+    <!-- Banner Text Overlay -->
+    <div class="banner-b-content mx-2 px-md-5">
+        <div class="heading">2025</div>
+        <div class="content">At <span class="innlinercolor">BioSynthesis,</span> we’re growing a greener, smarter future for agriculture. With innovative tools and sustainable solutions, we help farmers boost yields, cut waste, and protect the planet. Together, we’re cultivating healthier crops, stronger communities, and a brighter tomorrow.</div>
+    </div>
+
+    <!-- CAROUSEL SECTION-->
+    <div class="container-fluid carousel-container">
+        <div class="horizontal-scroll-carousel">
+            <div class="cards-track" id="cardsTrack">
+                <!-- Card 1 - Organic Farm -->
+                <div class="card-slide">
+                    <div class="card">
+                        <div class="hover-text">
+                            <div class="gsn"><h4>Get <br>Started Now</h4></div>
+                            <button class="hvimg" type="button">
+                                <i class="bi bi-arrow-up-right arrow-1"><img src="./assets/images/up-arrow.png"/></i>
+                                <i class="bi bi-arrow-right arrow-2"><img src="./assets/images/strar.png"/></i>
+                            </button>
+                        </div>
+                        <div class="sldimg"><img src="./assets/images/image.png" class="card-img-top" alt=""></div>
+                        <div class="slp"><p class="mt-2 txtsld">Organic Farm</p></div>
+                    </div>
+                </div>
+
+                <!-- Card 2 - Organic Fertilizer -->
+                <div class="card-slide">
+                    <div class="card mt-5">
+                        <div class="hover-text">
+                            <div class="gsn"><h4>Get <br>Started Now</h4></div>
+                            <button class="hvimg" type="button">
+                                <i class="bi bi-arrow-up-right arrow-1"><img src="./assets/images/up-arrow.png"/></i>
+                                <i class="bi bi-arrow-right arrow-2"><img src="./assets/images/strar.png"/></i>
+                            </button>
+                        </div>
+                        <img src="./assets/images/image (1).png" class="card-img-top" alt="">
+                        <p class="mt-2 txtsld">Organic Fertilizer</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 - Technology Irrigation -->
+                <div class="card-slide">
+                    <div class="card">
+                        <div class="hover-text">
+                            <div class="gsn"><h4>Get <br>Started Now</h4></div>
+                            <button class="hvimg" type="button">
+                                <i class="bi bi-arrow-up-right arrow-1"><img src="./assets/images/up-arrow.png"/></i>
+                                <i class="bi bi-arrow-right arrow-2"><img src="./assets/images/strar.png"/></i>
+                            </button>
+                        </div>
+                        <img src="./assets/images/image (2).png" class="card-img-top" alt="">
+                        <p class="mt-2 txtsld">Technology Irrigation</p>
+                    </div>
+                </div>
+
+                <!-- Card 4 - Agricultural Monitoring -->
+                <div class="card-slide">
+                    <div class="card mt-5">
+                        <div class="hover-text">
+                            <div class="gsn"><h4>Get <br>Started Now</h4></div>
+                            <button class="hvimg" type="button">
+                                <i class="bi bi-arrow-up-right arrow-1"><img src="./assets/images/up-arrow.png"/></i>
+                                <i class="bi bi-arrow-right arrow-2"><img src="./assets/images/strar.png"/></i>
+                            </button>
+                        </div>
+                        <img src="./assets/images/image (3).png" class="card-img-top" alt="">
+                        <p class="mt-2 txtsld">Agricultural Monitoring</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carousel Navigation Buttons -->
+        <div class="container next-prev-button">
+            <div id="prevBtn" class="nav-btn inactive">
+                <img src="./assets/images/prvs.png" class="bi bi-arrow-left"/>
+            </div>
+            <div id="nextBtn" class="nav-btn active">
+                <img src="./assets/images/next.png" class="bi bi-arrow-right"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- TRANSFORM SECTION-->
+    <div class="bannerimgtwo" style="margin-top: 100px;">
+        <div class="text-box">
+            <h2>Transform Your Farm.<br> Empower Your Future.</h2>
+        </div>
+        <button class="hvimg uparrowbtn" type="button">
+            <i class="bi bi-arrow-up-right arrow-1"><img src="./assets/images/up-arrow.png"/></i>
+            <i class="bi bi-arrow-right arrow-2"><img src="./assets/images/strar.png"/></i>
+        </button>
+    </div>
+
+    <!-- GROWTH HUB SECTION -->
+    <div class="containertext mt-5 px-3 px-md-5">
+        <div class="textnd">
+            <span>The Green Growth Hub:<br> Innovation & Earthwise</span>
+        </div>
+        <div class="text-content-growth w-50">
+            Insights, tips, and stories from the world of sustainable farming and innovative agriculture — offering expert advice, real-world success stories, and the latest trends to help farmers embrace smarter, eco-friendly practices. From cutting-edge technology to time-tested solutions, we’re here to inspire and guide you on the journey toward a more sustainable, productive future.
+        </div>
+    </div>
+
+    <!--  SERVICES SECTION-->
+    <div class="container-fluid mt-5 px-3 px-md-5">
+        <div class="row g-4">
+            <!-- Farming Precision -->
+            <div class="col-md-4 card-30">
+                <div class="cardone">
+                    <img src="./assets/images/Rectangle 3.png" class="card-img-top rounded-5" alt="Farming Precision">
+                    <div class="card-body">
+                        <div>
+                            <h5 class="card-title">Farming Precision</h5>
+                        </div>
+                        <div>
+                            <p class="card-text">Optimize your fields, reduce waste, and boost yields with smart, precise farming solutions.</p>
+                        </div>
+                        <div>
+                            <a href="#" class="read-more btn-link active text-decoration-none">Read more <img src="./assets/images/gnarrow.png"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Crop Surveillance -->
+            <div class="col-md-4 card-40">
+                <div class="cardtwo">
+                    <img src="./assets/images/Rectangle 5.png" class="card-img-top rounded-5 img-50" alt="Crop Surveillance">
+                    <div class="card-body">
+                        <h5 class="card-title">Crop Surveillance</h5>
+                        <p class="card-text">Monitor crop health in real-time with smart tools that detect issues early and protect your yield.</p>
+                        <a href="#" class="read-more btn-link text-decoration-none">Read more <img src="./assets/images/gnarrow.png"/></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Automated Farming -->
+            <div class="col-md-4 card-30">
+                <div class="cardtree">
+                    <img src="./assets/images/Rectangle 4.png" class="card-img-top rounded-5" alt="Automated Farming">
+                    <div class="card-body">
+                        <h5 class="card-title">Automated Farming</h5>
+                        <p class="card-text">Streamline your farm operations with smart automation for faster, easier, and more efficient growth.</p>
+                        <a href="#" class="read-more btn-link text-decoration-none">Read more <img src="./assets/images/gnarrow.png"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT FORM SECTION -->
+    <div class="form-section d-flex justify-content-between rounded-5 mx-5">
+        <div class="container p-5">
+            <div class="frmhd">
+                <div class="foe"><h3>We'd love to help</h3></div>
+                <div class="form-subtitle fs-5">
+                    Streamline your farm operations with smart automation for faster, easier, and more efficient growth.
+                </div>
+            </div>
+
+            <form class="frm p-3 mt-5">
+                <div class="row g-3 fs-6">
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control border-2 rounded-5" id="firstName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control border-2 rounded-5" id="lastName">
+                    </div>
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control border-2 rounded-5" id="email">
+                    </div>
+                    <div class="col-12">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control border border-2" rows="3"></textarea>
+                    </div>
+                    <div class="col-12 mt-5">
+                        <button type="submit" class="snd btn btn-send w-100 rounded-5">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- Contact Form Image -->
+        <img src="./assets/images/Rectangle 6.png" class="rounded-5 col-md-6 d-none d-lg-block"/>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer class="mt-5">
+        <div class="container p-5">
+            <div class="fttp d-flex">
+                <!-- Logo and Brand Section -->
+                <div class="lg-scl d-flex flex-column justify-content-start align-items-start col-md col-sm">
+                    <div class="logo-name"><img src="./assets/images/logo.png" /></div>
+                    <div class="col">
+                        <p class="lotext">
+                            Monitor crop health in real-time with <br> smart tools that detect issues early <br> and protect your yield.
+                        </p>
+                    </div>
+
+                    <!-- Social Media Links -->
+                    <div class="col text-center">
+                        <a href="#" class="text-light me-3"><img src="./assets/images/scl1.png"/></a>
+                        <a href="#" class="text-light me-3"><img src="./assets/images/scl2.png"/></a>
+                        <a href="#" class="text-light me-3"><img src="./assets/images/scl3.png"/></a>
+                        <a href="#" class="text-light"><img src="./assets/images/scl4.png"/></a>
+                    </div>
+                </div>
+
+                <!-- Footer Links Section -->
+                <div class="ftrdls d-flex">
+                    <!-- Company Links -->
+                    <div class="col col-md col-sm">
+                        <h5 class="text-uppercase">Company</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="textsub text-decoration-none">Features</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">Pricing</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">About Us</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">Product</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Resource Links -->
+                    <div class="col col-md col-sm">
+                        <h5 class="text-uppercase">Resource</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="textsub text-decoration-none">Blog</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">Customer Stories</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">Info</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">Privacy Policy</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">Payments</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Career Links -->
+                    <div class="col col-md col-sm">
+                        <h5 class="text-uppercase">Career</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="textsub text-decoration-none">Jobs</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">Hiring</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">News</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">Tips & Tricks</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Help Links -->
+                    <div class="col col-md col-sm">
+                        <h5 class="text-uppercase">Help</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="textsub text-decoration-none">FAQ</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">Help Center</a></li>
+                            <li><a href="#" class="textsub text-decoration-none">Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Watermark -->
+        <div class="rtg">REEP TO GROW</div>
+    </footer>
+
+    <!--SCRIPTS-->
+    <script src="./assets/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
