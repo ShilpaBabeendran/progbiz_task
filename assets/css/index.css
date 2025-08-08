@@ -1519,10 +1519,13 @@ p, span, div, li, a {
     }
 
     @media  (max-width: 1024px) {
+        
       .navbar-collapse {
         text-align: center;
       }
-
+        .rtg{
+            font-size: 100px!important;
+        }
       /* Login buttons responsive styling */
       .login-btn {
         flex-direction: row;
@@ -1652,6 +1655,7 @@ p, span, div, li, a {
         align-items: flex-start;
         
     }
+    
 }
 
 
@@ -1735,6 +1739,9 @@ p, span, div, li, a {
 
 @media(max-width: 768px){
 
+    .rtg{
+        font-size: 80px!important;
+    }
     .containertext {
         flex-direction: column !important;
         text-align: center !important;
